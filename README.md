@@ -25,31 +25,7 @@
 - **인증**: JWT(JSON Web Token) 기반 사용자 인증
 
 ## 프로젝트 구조
-music-streaming-app/
-├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── com/
-│   │   │   │       └── musicstreaming/
-│   │   │   │           ├── controller/        # API 컨트롤러
-│   │   │   │           ├── dao/               # 데이터 접근 객체 (JPA)
-│   │   │   │           ├── service/            # 비즈니스 로직
-│   │   │   │           └── model/              # 엔티티 (User, Music, etc.)
-│   │   │   ├── resources/
-│   │   │   │   ├── application.properties       # DB 및 설정
-│   │   │   │   └── static/                      # 정적 파일
-│   │   │   └── webapp/
-│   │   │       └── WEB-INF/
-│   │   └── pom.xml                                # Maven 의존성 설정
-├── frontend/
-│   ├── src/
-│   │   ├── components/                           # React 컴포넌트
-│   │   ├── pages/                                # 페이지 컴포넌트
-│   │   └── App.js                                # 메인 컴포넌트
-│   └── public/
-│       └── index.html                            # HTML 템플릿
-└── README.md
+music-streaming-app/ ├── backend/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/ │ │ │ │ └── com/ │ │ │ │ └── musicstreaming/ │ │ │ │ ├── controller/ # API 컨트롤러 │ │ │ │ ├── dao/ # 데이터 접근 객체 (JPA) │ │ │ │ ├── service/ # 비즈니스 로직 │ │ │ │ └── model/ # 엔티티 (User, Music, etc.) │ │ │ ├── resources/ │ │ │ │ ├── application.properties # DB 및 설정 │ │ │ │ └── static/ # 정적 파일 (CSS, JS, 이미지 등) │ │ │ └── webapp/ │ │ │ └── WEB-INF/ │ │ └── pom.xml # Maven 의존성 설정 ├── frontend/ │ ├── src/ │ │ ├── components/ # React 컴포넌트 │ │ ├── pages/ # 페이지 컴포넌트 │ │ └── App.js # 메인 컴포넌트 │ └── public/ │ └── index.html # HTML 템플릿 └── README.md
 
 ## 주요 기능 구현
 
