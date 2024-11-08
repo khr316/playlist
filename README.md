@@ -24,7 +24,7 @@ Spring Boot 기반의 간단한 음악 스트리밍 웹사이트<br>
 - **Git**
 
 ## 프로젝트 구조
-music-streaming-app/<br>
+khrp/<br>
 ├── src/<br>
 │   ├── main/<br>
 │   │   ├── java/<br>
@@ -32,14 +32,13 @@ music-streaming-app/<br>
 │   │   │       └── khr/<br>
 │   │   │           ├── controller/           # 요청을 처리하는 컨트롤러<br>
 │   │   │           ├── dao/                  # 데이터베이스 접근 객체<br>
-|   |   |           ├── KhrApplication<br>
+│   │   │           ├── KhrApplication<br>
 │   │   └── resources/<br>
-|   |       └── static<br>
-|   |       └── templates<br>
+│   │       └── static<br>
+│   │       └── templates<br>
 │   │       └── application.properties         # 데이터베이스 설정<br>
 ├── build.gradle                                 # Gradle 의존성 설정<br>
 └── README.md                                    # 프로젝트 설명 파일<br>
-
 
 ## 데이터베이스 설정
 
