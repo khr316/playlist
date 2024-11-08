@@ -5,10 +5,10 @@
     <title>Main</title>
 </head>
 <body>
-    <h1>main화면</h1>
-    <div th:each="li : ${list}">
-        <span>이름 : [[${li.name}]]</span>
-        <span>나이 : [[${li.age}]]</span><br>
-    </div>
+<h1>main화면</h1>
+<div th:each="li : ${list}">
+    <span>이름 : <span th:text="${li.name}"></span></span>
+    <span>나이 : <span th:text="${li.age}"></span></span><br>
+</div>
 </body>
 </html>
